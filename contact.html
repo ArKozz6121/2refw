@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - NovaDev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="antialiased">
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logo-pulsardev.png" alt="PulsarDev Logo" id="logo">
+            </a>
+            <div class="nav-desktop">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="mesprojetsbis.html" class="nav-link">Mes Projets</a>
+                <a href="mestarifs.html" class="nav-link">Mes Tarifs</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <button id="menu-button" class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="index.html" class="mobile-nav-link">Accueil</a>
+            <a href="mesprojets.html" class="mobile-nav-link">Mes Projets</a>
+            <a href="metarifs.html" class="mobile-nav-link">Mes Tarifs</a>
+            <a href="contact.html" class="mobile-nav-link active">Contact</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="contact-section">
+            <div class="section-header">
+                <h2 class="section-title">Contactez NovaDev</h2>
+                <p class="section-subtitle">
+                    Prêt à démarrer votre projet ? Envoyez-moi un message pour discuter de vos idées 
+                    et obtenir un devis personnalisé.
+                </p>
+            </div>
+
+            <div class="contact-card" id="contact-card">
+                <p class="contact-intro">Envoyez-moi un e-mail directement !</p>
+                <button id="email-button" class="email-button">
+                    <i class="fas fa-envelope"></i>
+                    Envoyer un Message à NovaDev
+                </button>
+                <p class="contact-note">
+                    Ce bouton ouvrira votre logiciel de messagerie par défaut (Outlook, Gmail, etc.) 
+                    avec l'adresse e-mail pré-remplie.
+                </p>
+                <div class="contact-info">
+                    <p class="info-title">Autres Informations :</p>
+                    <p class="info-text">
+                        Vous pouvez aussi me contacter via mon profil LinkedIn pour des demandes professionnelles.
+                    </p>
+                    <a href="#" target="_blank" class="linkedin-link">
+                        Mon Profil LinkedIn (Lien Fictif)
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 PulsarDev. Tous droits réservés.</p>
+            <p class="footer-subtext">Conçu et développé par PulsarDev (HTML / CSS / JS).</p>
+        </div>
+    </footer>
+
+    <div id="status-message" class="status-message"></div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

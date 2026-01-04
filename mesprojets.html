@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Projets - NovaDev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="antialiased">
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logo-pulsardev.png" alt="PulsarDev Logo" id="logo">
+            </a>
+            <div class="nav-desktop">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="mesprojets.html" class="nav-link active">Mes Projets</a>
+                <a href="mestarifs.html" class="nav-link">Mes Tarifs</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <button id="menu-button" class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="index.html" class="mobile-nav-link">Accueil</a>
+            <a href="mesprojets.html" class="mobile-nav-link active">Mes Projets</a>
+            <a href="metarifs.html" class="mobile-nav-link">Mes Tarifs</a>
+            <a href="contact.html" class="mobile-nav-link">Contact</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="projects-section">
+            <div class="section-header">
+                <h2 class="section-title">Mes Projets Récents</h2>
+                <p class="section-subtitle">
+                    Découvrez quelques exemples de mon travail et de mes compétences techniques.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/1F2937/F3F4F6?text=Projet+E-commerce" 
+                         alt="Image d'un site E-commerce" class="project-image">
+                    <div class="project-content">
+                        <span class="project-category">E-Commerce / WordPress</span>
+                        <h3 class="project-title">Boutique en Ligne Minimaliste</h3>
+                        <p class="project-description">
+                            Création d'une plateforme de vente rapide et responsive pour des produits artisanaux.
+                        </p>
+                        <a href="#" class="project-link">Voir le Projet →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/1F2937/F3F4F6?text=Projet+App+SaaS" 
+                         alt="Image d'une interface d'application SaaS" class="project-image">
+                    <div class="project-content">
+                        <span class="project-category">Application Web / JavaScript</span>
+                        <h3 class="project-title">Tableau de Bord de Suivi</h3>
+                        <p class="project-description">
+                            Développement d'une interface utilisateur dynamique pour la gestion des tâches.
+                        </p>
+                        <a href="#" class="project-link">Voir le Projet →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/1F2937/F3F4F6?text=Projet+Vitrine" 
+                         alt="Image d'un site Vitrine pour Artisan" class="project-image">
+                    <div class="project-content">
+                        <span class="project-category">Site Vitrine / Responsive Design</span>
+                        <h3 class="project-title">Portfolio pour Photographe</h3>
+                        <p class="project-description">
+                            Conception d'un site élégant et entièrement responsive pour présenter des galeries.
+                        </p>
+                        <a href="#" class="project-link">Voir le Projet →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 PulsarDev. Tous droits réservés.</p>
+            <p class="footer-subtext">Conçu et développé par PulsarDev (HTML / CSS / JS).</p>
+        </div>
+    </footer>
+
+    <div id="status-message" class="status-message"></div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

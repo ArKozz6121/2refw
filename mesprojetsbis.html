@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Projets - NovaDev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-wait.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="antialiased">
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logo-pulsardev.png" alt="PulsarDev Logo" id="logo">
+            </a>
+            <div class="nav-desktop">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="mesprojetsbis.html" class="nav-link active">Mes Projets</a>
+                <a href="mestarifs.html" class="nav-link">Mes Tarifs</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <button id="menu-button" class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="index.html" class="mobile-nav-link">Accueil</a>
+            <a href="mesprojets.html" class="mobile-nav-link active">Mes Projets</a>
+            <a href="mestarifs.html" class="mobile-nav-link">Mes Tarifs</a>
+            <a href="contact.html" class="mobile-nav-link">Contact</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="construction-container">
+            <div class="construction-icon">
+                <i class="fas fa-tools"></i>
+            </div>
+            
+            <h1 class="construction-title pulse">
+                Projets en Construction
+            </h1>
+            
+            <p class="construction-subtitle">
+                Nous travaillons actuellement sur la présentation de nos projets. 
+                Cette galerie sera bientôt remplie de réalisations innovantes qui témoignent 
+                de notre expertise en développement web et applications.
+            </p>
+            
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text">
+                    <span>Chargement...</span>
+                    <span id="progress-percentage">45%</span>
+                </div>
+            </div>
+            
+            <div class="infinite-loop">
+                <div class="loop-container">
+                    <div class="loop-circle"></div>
+                    <div class="loop-circle"></div>
+                    <div class="loop-circle"></div>
+                    <div class="loop-center">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <i class="fas fa-info-circle"></i>
+                <p>
+                    La galerie de projets sera disponible très prochainement. En attendant, 
+                    n'hésitez pas à <a href="contact.html" class="info-link">nous contacter</a> 
+                    pour discuter de vos projets.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 PulsarDev. Tous droits réservés.</p>
+            <p class="footer-subtext">Conçu et développé par PulsarDev (HTML / CSS / JS).</p>
+        </div>
+    </footer>
+
+    <div id="status-message" class="status-message"></div>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/script-wait.js"></script>
+</body>
+</html>

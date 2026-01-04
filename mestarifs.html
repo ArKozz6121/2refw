@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Tarifs - NovaDev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="antialiased">
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logo-pulsardev.png" alt="PulsarDev Logo" id="logo">
+            </a>
+            <div class="nav-desktop">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="mesprojetsbis.html" class="nav-link">Mes Projets</a>
+                <a href="mestarifs.html" class="nav-link active">Mes Tarifs</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <button id="menu-button" class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="index.html" class="mobile-nav-link">Accueil</a>
+            <a href="mesprojets.html" class="mobile-nav-link">Mes Projets</a>
+            <a href="metarifs.html" class="mobile-nav-link active">Mes Tarifs</a>
+            <a href="contact.html" class="mobile-nav-link">Contact</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="pricing-section">
+            <div class="section-header">
+                <h2 class="section-title">Nos Offres de Conception</h2>
+                <p class="section-subtitle">
+                    Des solutions adaptées à chaque besoin, du lancement rapide à la plateforme complète.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Starter</h3>
+                    <p class="pricing-description">Idéal pour une présence en ligne rapide et essentielle.</p>
+                    <div class="pricing-price">
+                        <span class="price-label">à partir de</span> 690 €
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-item included">1 Page (Landing Page)</li>
+                        <li class="feature-item included">Design Responsive Mobile</li>
+                        <li class="feature-item included">Nom de domaine offert (12 mois)</li>
+                        <li class="feature-item included">Mise en ligne du site</li>
+                        <li class="feature-item included">Intégration des réseaux sociaux</li>
+                        <li class="feature-item included">Accompagnement personnalisé</li>
+                        <li class="feature-item included">Formulaire de Contact Basique</li>
+                        <li class="feature-item included">Support technique (Sous 72h)</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-button">Choisir Starter</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="featured-badge">Recommandé</div>
+                    <h3 class="pricing-title">Professionnel</h3>
+                    <p class="pricing-description">Parfait pour les TPE/PME qui ont besoin d'une vitrine complète.</p>
+                    <div class="pricing-price">
+                        <span class="price-label">à partir de</span> 1490 €
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-item included">Jusqu'à 8 Pages</li>
+                        <li class="feature-item included">Optimisation SEO de Base</li>
+                        <li class="feature-item included">Design Responsive Mobile</li>
+                        <li class="feature-item included">Nom de domaine offert (12 mois)</li>
+                        <li class="feature-item included">Mise en ligne du site</li>
+                        <li class="feature-item included">Intégration des réseaux sociaux</li>
+                        <li class="feature-item included">Accompagnement personnalisé</li>
+                        <li class="feature-item included">Formulaire de Contact Basique</li>
+                        <li class="feature-item included">Support technique (Sous 48h)</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-button">Choisir Professionnel</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Sur Mesure</h3>
+                    <p class="pricing-description">Pour les projets complexes, E-commerce avancé ou applications spécifiques.</p>
+                    <div class="pricing-price">
+                        <span class="price-label">à partir de</span> 2500 €
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="feature-item included">E-commerce, API, Fonctions Spécifiques</li>
+                        <li class="feature-item included">Analyse de Besoins Approfondie</li>
+                        <li class="feature-item included">Développement Front-end/Back-end</li>
+                        <li class="feature-item included">Maintenance Premium</li>
+                        <li class="feature-item included">Optimisation SEO de Base</li>
+                        <li class="feature-item included">Design Responsive Mobile</li>
+                        <li class="feature-item included">Nom de domaine offert (12 mois)</li>
+                        <li class="feature-item included">Mise en ligne du site</li>
+                        <li class="feature-item included">Intégration des réseaux sociaux</li>
+                        <li class="feature-item included">Accompagnement personnalisé</li>
+                        <li class="feature-item included">Formulaire de Contact Basique</li>
+                        <li class="feature-item included">Support technique (Sous 24h)</li>
+                    </ul>
+                    <a href="contact.html" class="pricing-button">Contacter pour un devis</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025 PulsarDev. Tous droits réservés.</p>
+            <p class="footer-subtext">Conçu et développé par PulsarDev (HTML / CSS / JS).</p>
+        </div>
+    </footer>
+
+    <div id="status-message" class="status-message"></div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
